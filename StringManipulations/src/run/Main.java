@@ -1,12 +1,12 @@
 package run;
 
-import problems.SpecialCharacters;
+import problems.*;
 
 public class Main {
 
 	public static void main(String[] args) throws Exception {
-		SpecialCharacters specialCharacters = new SpecialCharacters();
-		specialCharacters.findSpecialCharacters();
+		//SpecialCharacters specialCharacters = new SpecialCharacters();
+		//specialCharacters.findSpecialCharacters();
+		System.out.println(Palindrome.isPalindrome("  TESEt"));
 	}
-
 }
