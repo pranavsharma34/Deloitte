@@ -1,6 +1,6 @@
 package run;
 
-import specialcharacters.SpecialCharacters;
+import problems.SpecialCharacters;
 
 public class Main {
 

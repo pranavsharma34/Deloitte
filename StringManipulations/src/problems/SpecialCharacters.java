@@ -1,4 +1,4 @@
-package specialcharacters;
+package problems;
 
 import java.util.*;
 
