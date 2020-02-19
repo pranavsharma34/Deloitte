@@ -9,6 +9,7 @@ public class Main {
 		//specialCharacters.findSpecialCharacters();
 		//System.out.println(Palindrome.isPalindrome("  TESEt"));
 		//Duplicates.findDuplications("programming");
-		Reversal.findReversal("programming");
+		//Reversal.findReversal("programming");
+		Vowel.countConsonants("How many vowels in this String");
 	}
 }
