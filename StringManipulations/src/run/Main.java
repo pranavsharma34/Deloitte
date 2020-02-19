@@ -8,6 +8,7 @@ public class Main {
 		//SpecialCharacters specialCharacters = new SpecialCharacters();
 		//specialCharacters.findSpecialCharacters();
 		//System.out.println(Palindrome.isPalindrome("  TESEt"));
-		Duplicates.findDuplications("programming");
+		//Duplicates.findDuplications("programming");
+		Reversal.findReversal("programming");
 	}
 }
