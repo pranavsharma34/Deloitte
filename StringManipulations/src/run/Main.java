@@ -1,6 +1,7 @@
 package run;
 
 import problems.*;
+import actions.*;
 
 public class Main {
 
@@ -11,5 +12,8 @@ public class Main {
 		//Duplicates.findDuplications("programming");
 		//Reversal.findReversal("programming");
 		Vowel.countConsonants("How many vowels in this String");
+		ExcelFiles excelFiles = new ExcelFiles();
+		excelFiles.writeToExcel("C:\\Personal\\Projects\\Excel Files\\Sample.xlsx", "Birthday");
+		excelFiles.readFromExcel("C:\\Personal\\Projects\\Excel Files\\Sample.xlsx", "Birthday");
 	}
 }
