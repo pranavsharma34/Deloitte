@@ -12,9 +12,11 @@ public class Main {
 		//Duplicates.findDuplications("programming");
 		//Reversal.findReversal("programming");
 		//Vowel.countConsonants("How many vowels in this String");
-		ExcelFiles excelFiles = new ExcelFiles();
-		excelFiles.writeToExcel("C:\\Personal\\Projects\\Excel Files\\Sample.xlsx", "Birthday");
-		excelFiles.readFromExcel("C:\\Personal\\Projects\\Excel Files\\Sample.xlsx", "Birthday");
-		EvenFibonacci.findSum(4000000);
+		//ExcelFiles excelFiles = new ExcelFiles();
+		//excelFiles.writeToExcel("C:\\Personal\\Projects\\Excel Files\\Sample.xlsx", "Birthday");
+		//excelFiles.readFromExcel("C:\\Personal\\Projects\\Excel Files\\Sample.xlsx", "Birthday");
+		//EvenFibonacci.findSum(4000000);
+		//LargestPrimeFactor.findLargestFactor(600851475143L);
+		SmallestMultiple.findSmallestMultiple();
 	}
 }
