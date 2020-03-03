@@ -1,7 +1,7 @@
 package run;
 
 import problems.*;
-import actions.*;
+//import actions.*;
 
 public class Main {
 
@@ -17,6 +17,7 @@ public class Main {
 		//excelFiles.readFromExcel("C:\\Personal\\Projects\\Excel Files\\Sample.xlsx", "Birthday");
 		//EvenFibonacci.findSum(4000000);
 		//LargestPrimeFactor.findLargestFactor(600851475143L);
-		SmallestMultiple.findSmallestMultiple();
+		//SmallestMultiple.findSmallestMultiple();
+		NthPrimeNumber.findNthPrime(10001);
 	}
 }
